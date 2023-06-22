@@ -98,7 +98,7 @@ async def _(event):
 ''')
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r".الاوامر"))
+@sython.on(events.NewMessage(outgoing=True, pattern=r".الفارات"))
 async def _(event):
     
     await event.edit(f'''
